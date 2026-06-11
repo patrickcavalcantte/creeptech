@@ -252,6 +252,28 @@ img.avatar.avatar--small {
   box-shadow: 0 0 8px var(--accent);
 }
 
+/* --- Giscus (comentários) ---------------------------------- */
+.giscus-wrapper {
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px dashed rgba(5, 217, 232, 0.4);
+}
+.giscus-title {
+  margin-bottom: 20px;
+}
+.giscus-noscript {
+  color: var(--foreground);
+  opacity: 0.6;
+}
+/* iframe injetado pelo giscus.app */
+.giscus,
+.giscus-frame {
+  width: 100%;
+  min-height: 200px;
+  border: none;
+  color-scheme: dark;
+}
+
 /* Respeita quem prefere menos movimento */
 @media (prefers-reduced-motion: reduce) {
   .index-content h1:hover,

@@ -1,0 +1,29 @@
+{{/* Giscus — sistema de comentários via GitHub Discussions
+     Só aparece em posts (type = "posts") e quando hideComments != true */}}
+{{ if eq .Type "posts" }}
+<section class="giscus-wrapper">
+  <h2 class="home-section__title giscus-title">// comentários</h2>
+  <script src="https://giscus.app/client.js"
+    data-repo="patrickcavalcantte/creeptech"
+    data-repo-id="R_kgDOS3wqsA"
+    data-category="General"
+    data-category-id="DIC_kwDOS3wqsM4C--gR"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="dark"
+    data-lang="pt"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+  </script>
+  <noscript>
+    <p class="giscus-noscript">
+      Ative o JavaScript para ver os comentários, ou acesse diretamente as
+      <a href="https://github.com/patrickcavalcantte/creeptech/discussions">Discussions do repositório</a>.
+    </p>
+  </noscript>
+</section>
+{{ end }}
