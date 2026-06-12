@@ -42,9 +42,9 @@ pagination.pagerSize = 5
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "sobre"
-    name = "Sobre"
-    url = "/about/"
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
     weight = 2
   [[menu.main]]
     identifier = "projetos"
@@ -52,7 +52,7 @@ pagination.pagerSize = 5
     url = "/projects/"
     weight = 3
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/posts/"
+    identifier = "sobre"
+    name = "Sobre"
+    url = "/about/"
     weight = 4
